@@ -1,0 +1,100 @@
+/* Add your custom styles here */
+
+/* Header */
+header {
+     background-color: #f8f9fa;
+     padding-bottom: 20px;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.jumbotron {
+     height: 90vh;
+     background-image: url('/static/img/1.webp');
+     background-size: cover;
+     color: #fff;
+     text-align: center;
+     padding: 100px 0;
+}
+
+/* Sections */
+section {
+     padding: 50px 0;
+}
+
+section h2 {
+     margin-bottom: 30px;
+}
+
+section h3 {
+     margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+     background-color: #343a40;
+     color: #fff;
+     text-align: center;
+}
+
+footer p {
+     margin-bottom: 0;
+}
+
+
+/* Add your custom styles here */
+
+/* Additional Resources */
+#additional-content .position-relative {
+     position: relative;
+}
+
+#additional-content .img-fluid {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+}
+
+#additional-content .link-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(47, 46, 46, 0.5);
+     opacity: 0.8;
+     /* Set initial opacity to 0.8 */
+     transition: opacity 0.3s ease;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#additional-content .link-overlay:hover {
+     opacity: 1;
+     /* Increase opacity on hover */
+}
+
+#additional-content .link-overlay::after {
+     content: "";
+     position: relative;
+     display: block;
+     width: 60px;
+     height: 60px;
+     background-color: rgb(92, 92, 127);
+     border-radius: 50%;
+     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-play' viewBox='0 0 16 16'%3E%3Cpath d='M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z'/%3E%3C/svg%3E");
+     background-size: 40%;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+#additional-content .link-overlay:hover::after {
+     opacity: 0.8;
+}
+
+
+
+/* ??????????????????????????????????????????????????????? */
